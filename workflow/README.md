@@ -1,7 +1,6 @@
-# BETE-NET
-This repo contains the models, training data and test predictions for the work described in the paper: [Accelerating superconductor discovery through tempered deep learning of the electron-phonon spectral function](https://arxiv.org/abs/2401.16611)
+# BEE-NET
 
-## Files and directories
+## Files and their respective discription
 
 1. `relax_dask_m3g.py` uses dask to relax the structures using M3GNET and predicts Ef and Eg using MEGNET.
 2. `pred_tc_m3gnet.py` predicts Tc using BEENET.
