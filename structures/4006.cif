@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       ScTi2Al5
+_chemical_formula_sum              "Sc1 Ti2 Al5"
+_cell_length_a       8.72423
+_cell_length_b       8.72423
+_cell_length_c       8.72423
+_cell_angle_alpha    37.6856
+_cell_angle_beta     26.403
+_cell_angle_gamma    26.403
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Sc  Sc1       1.0  0.00000  0.00000  0.00000  1.0000
+  Ti  Ti1       1.0  0.00000  0.24259  0.24259  1.0000
+  Ti  Ti2       1.0  0.00000  0.75741  0.75741  1.0000
+  Al  Al1       1.0  0.00000  0.50000  0.50000  1.0000
+  Al  Al2       1.0  0.50000  0.12912  0.62912  1.0000
+  Al  Al3       1.0  0.50000  0.62912  0.12912  1.0000
+  Al  Al4       1.0  0.50000  0.87088  0.37088  1.0000
+  Al  Al5       1.0  0.50000  0.37088  0.87088  1.0000

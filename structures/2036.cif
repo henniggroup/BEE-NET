@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       Hf2SnN
+_chemical_formula_sum              "Hf2 Sn1 N1"
+_cell_length_a       7.47115
+_cell_length_b       7.47115
+_cell_length_c       7.47115
+_cell_angle_alpha    24.9396
+_cell_angle_beta     24.9396
+_cell_angle_gamma    24.9396
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Hf  Hf1       1.0  0.94223  0.94224  0.94223  1.0000
+  Hf  Hf2       1.0  0.72438  0.72439  0.72438  1.0000
+  Sn  Sn1       1.0  0.50074  0.50074  0.50074  1.0000
+  N   N1        1.0  0.33266  0.33266  0.33266  1.0000

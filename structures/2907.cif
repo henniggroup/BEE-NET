@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       LaSc2Si2
+_chemical_formula_sum              "La1 Sc2 Si2"
+_cell_length_a       6.64584
+_cell_length_b       6.64584
+_cell_length_c       6.64584
+_cell_angle_alpha    54.504
+_cell_angle_beta     37.7843
+_cell_angle_gamma    37.7843
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  La  La1       1.0  0.00000  0.00000  0.00000  1.0000
+  Sc  Sc1       1.0  0.50000  0.75000  0.25000  1.0000
+  Sc  Sc2       1.0  0.50000  0.25000  0.75000  1.0000
+  Si  Si1       1.0  0.00000  0.60296  0.60296  1.0000
+  Si  Si2       1.0  0.00000  0.39704  0.39704  1.0000

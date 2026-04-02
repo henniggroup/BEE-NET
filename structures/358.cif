@@ -1,0 +1,28 @@
+data_image0
+_chemical_formula_structural       RePtN
+_chemical_formula_sum              "Re1 Pt1 N1"
+_cell_length_a       5.77436
+_cell_length_b       5.77436
+_cell_length_c       5.77436
+_cell_angle_alpha    27.6416
+_cell_angle_beta     27.6416
+_cell_angle_gamma    27.6416
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Re  Re1       1.0  0.13723  0.13723  0.13723  1.0000
+  Pt  Pt1       1.0  0.60617  0.60617  0.60617  1.0000
+  N   N1        1.0  0.72807  0.72808  0.72807  1.0000

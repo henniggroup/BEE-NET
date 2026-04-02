@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       Re3Tc
+_chemical_formula_sum              "Re3 Tc1"
+_cell_length_a       5.20739
+_cell_length_b       5.20739
+_cell_length_c       5.20739
+_cell_angle_alpha    54.3181
+_cell_angle_beta     63.5967
+_cell_angle_gamma    30.5255
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Re  Re1       1.0  0.74960  0.99937  0.75023  1.0000
+  Re  Re2       1.0  0.50000  0.66916  0.83084  1.0000
+  Re  Re3       1.0  0.25040  0.99937  0.25103  1.0000
+  Tc  Tc1       1.0  0.00000  0.66543  0.33457  1.0000

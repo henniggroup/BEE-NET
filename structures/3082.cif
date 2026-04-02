@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       Zr2SnP
+_chemical_formula_sum              "Zr2 Sn1 P1"
+_cell_length_a       7.7092
+_cell_length_b       7.7092
+_cell_length_c       7.7092
+_cell_angle_alpha    26.8231
+_cell_angle_beta     26.8231
+_cell_angle_gamma    26.8231
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Zr  Zr1       1.0  0.06637  0.06637  0.06637  1.0000
+  Zr  Zr2       1.0  0.26741  0.26741  0.26741  1.0000
+  Sn  Sn1       1.0  0.49915  0.49915  0.49915  1.0000
+  P   P1        1.0  0.66705  0.66705  0.66705  1.0000

@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       Hf2GaN
+_chemical_formula_sum              "Hf2 Ga1 N1"
+_cell_length_a       7.18929
+_cell_length_b       7.18929
+_cell_length_c       7.18929
+_cell_angle_alpha    25.5158
+_cell_angle_beta     25.5158
+_cell_angle_gamma    25.5158
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Hf  Hf1       1.0  0.93972  0.93972  0.93972  1.0000
+  Hf  Hf2       1.0  0.72716  0.72716  0.72716  1.0000
+  Ga  Ga1       1.0  0.50081  0.50081  0.50081  1.0000
+  N   N1        1.0  0.33231  0.33231  0.33231  1.0000

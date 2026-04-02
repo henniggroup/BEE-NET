@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Co2Mo4
+_chemical_formula_sum              "Co2 Mo4"
+_cell_length_a       4.78194
+_cell_length_b       4.78194
+_cell_length_c       4.78194
+_cell_angle_alpha    120.69
+_cell_angle_beta     75.8299
+_cell_angle_gamma    75.8299
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Co  Co1       1.0  0.00000  0.75000  0.75000  1.0000
+  Co  Co2       1.0  0.00000  0.25000  0.25000  1.0000
+  Mo  Mo1       1.0  0.81229  0.34386  0.84386  1.0000
+  Mo  Mo2       1.0  0.50000  0.84386  0.65614  1.0000
+  Mo  Mo3       1.0  0.50000  0.15614  0.34386  1.0000
+  Mo  Mo4       1.0  0.18771  0.65614  0.15614  1.0000

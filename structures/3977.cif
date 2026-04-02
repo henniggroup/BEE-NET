@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       Li4ScP2
+_chemical_formula_sum              "Li4 Sc1 P2"
+_cell_length_a       7.49256
+_cell_length_b       7.49256
+_cell_length_c       7.49256
+_cell_angle_alpha    30.954
+_cell_angle_beta     30.9541
+_cell_angle_gamma    30.954
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.57740  0.57740  0.57740  1.0000
+  Li  Li2       1.0  0.86122  0.86122  0.86122  1.0000
+  Li  Li3       1.0  0.42260  0.42260  0.42260  1.0000
+  Li  Li4       1.0  0.13878  0.13878  0.13878  1.0000
+  Sc  Sc1       1.0  0.00000  0.00000  0.00000  1.0000
+  P   P1        1.0  0.25929  0.25929  0.25929  1.0000
+  P   P2        1.0  0.74071  0.74071  0.74071  1.0000

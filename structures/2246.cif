@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       Os2Rh2
+_chemical_formula_sum              "Os2 Rh2"
+_cell_length_a       2.71119
+_cell_length_b       2.71119
+_cell_length_c       8.64624
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    120
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Os  Os1       1.0  0.33333  0.66667  0.87926  1.0000
+  Os  Os2       1.0  0.66667  0.33333  0.12074  1.0000
+  Rh  Rh1       1.0  0.33333  0.66667  0.36967  1.0000
+  Rh  Rh2       1.0  0.66667  0.33333  0.63033  1.0000

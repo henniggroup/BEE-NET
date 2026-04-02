@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       LaSi3Pd
+_chemical_formula_sum              "La1 Si3 Pd1"
+_cell_length_a       5.68881
+_cell_length_b       5.68881
+_cell_length_c       5.68881
+_cell_angle_alpha    64.9698
+_cell_angle_beta     44.639
+_cell_angle_gamma    44.639
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  La  La1       1.0  0.00000  0.00501  0.00501  1.0000
+  Si  Si1       1.0  0.50000  0.26622  0.76622  1.0000
+  Si  Si2       1.0  0.50000  0.76622  0.26622  1.0000
+  Si  Si3       1.0  0.00000  0.40033  0.40033  1.0000
+  Pd  Pd1       1.0  1.00000  0.65206  0.65206  1.0000

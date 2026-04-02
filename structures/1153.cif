@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       Nb3Pd2
+_chemical_formula_sum              "Nb3 Pd2"
+_cell_length_a       7.92732
+_cell_length_b       7.92732
+_cell_length_c       7.92732
+_cell_angle_alpha    34.0905
+_cell_angle_beta     23.925
+_cell_angle_gamma    23.925
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Nb  Nb1       1.0  0.00000  0.00000  0.00000  1.0000
+  Nb  Nb2       1.0  0.00000  0.39441  0.39441  1.0000
+  Nb  Nb3       1.0  1.00000  0.60559  0.60559  1.0000
+  Pd  Pd1       1.0  0.00000  0.19879  0.19879  1.0000
+  Pd  Pd2       1.0  1.00000  0.80121  0.80121  1.0000

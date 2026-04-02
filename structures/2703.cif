@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Ti3Ga3Co2
+_chemical_formula_sum              "Ti3 Ga3 Co2"
+_cell_length_a       6.59779
+_cell_length_b       6.59779
+_cell_length_c       2.96184
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    120
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ti  Ti1       1.0  0.00000  0.41944  0.50000  1.0000
+  Ti  Ti2       1.0  0.41944  0.00000  0.50000  1.0000
+  Ti  Ti3       1.0  0.58056  0.58056  0.50000  1.0000
+  Ga  Ga1       1.0  0.00000  0.76443  0.00000  1.0000
+  Ga  Ga2       1.0  0.76443  0.00000  0.00000  1.0000
+  Ga  Ga3       1.0  0.23557  0.23557  0.00000  1.0000
+  Co  Co1       1.0  0.33333  0.66667  0.00000  1.0000
+  Co  Co2       1.0  0.66667  0.33333  0.00000  1.0000

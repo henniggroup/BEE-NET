@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       V2RhN
+_chemical_formula_sum              "V2 Rh1 N1"
+_cell_length_a       6.58934
+_cell_length_b       6.58934
+_cell_length_c       6.58934
+_cell_angle_alpha    24.6951
+_cell_angle_beta     24.6951
+_cell_angle_gamma    24.6951
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  V   V1        1.0  0.05825  0.05825  0.05825  1.0000
+  V   V2        1.0  0.27617  0.27617  0.27617  1.0000
+  Rh  Rh1       1.0  0.49900  0.49900  0.49900  1.0000
+  N   N1        1.0  0.66660  0.66660  0.66660  1.0000

@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       Ti6HO
+_chemical_formula_sum              "Ti6 H1 O1"
+_cell_length_a       5.5451
+_cell_length_b       5.5451
+_cell_length_c       5.5451
+_cell_angle_alpha    54.4809
+_cell_angle_beta     54.4809
+_cell_angle_gamma    54.4809
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ti  Ti1       1.0  0.76072  0.08285  0.41490  1.0000
+  Ti  Ti2       1.0  0.08285  0.41490  0.76072  1.0000
+  Ti  Ti3       1.0  0.58510  0.23928  0.91715  1.0000
+  Ti  Ti4       1.0  0.91715  0.58509  0.23928  1.0000
+  Ti  Ti5       1.0  0.23928  0.91715  0.58509  1.0000
+  Ti  Ti6       1.0  0.41490  0.76072  0.08285  1.0000
+  H   H1        1.0  0.50000  0.50000  0.50000  1.0000
+  O   O1        1.0  0.00000  0.00000  0.00000  1.0000

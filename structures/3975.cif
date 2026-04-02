@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       NbAl5Ni2
+_chemical_formula_sum              "Nb1 Al5 Ni2"
+_cell_length_a       7.60673
+_cell_length_b       7.60673
+_cell_length_c       7.60673
+_cell_angle_alpha    42.9716
+_cell_angle_beta     30.0206
+_cell_angle_gamma    30.0206
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Nb  Nb1       1.0  0.00000  0.00000  0.00000  1.0000
+  Al  Al1       1.0  1.00000  0.50000  0.50000  1.0000
+  Al  Al2       1.0  0.50000  0.14652  0.64652  1.0000
+  Al  Al3       1.0  0.50000  0.64652  0.14652  1.0000
+  Al  Al4       1.0  0.50000  0.85348  0.35348  1.0000
+  Al  Al5       1.0  0.50000  0.35348  0.85348  1.0000
+  Ni  Ni1       1.0  1.00000  0.24267  0.24267  1.0000
+  Ni  Ni2       1.0  0.00000  0.75734  0.75734  1.0000

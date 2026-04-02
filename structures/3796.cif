@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       LaFeGe3
+_chemical_formula_sum              "La1 Fe1 Ge3"
+_cell_length_a       5.79923
+_cell_length_b       5.79923
+_cell_length_c       5.79923
+_cell_angle_alpha    63.2608
+_cell_angle_beta     43.534
+_cell_angle_gamma    43.534
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  La  La1       1.0  0.00000  0.56559  0.56559  1.0000
+  Fe  Fe1       1.0  0.00000  0.23119  0.23119  1.0000
+  Ge  Ge1       1.0  0.50000  0.82183  0.32183  1.0000
+  Ge  Ge2       1.0  0.00000  0.00332  0.00332  1.0000
+  Ge  Ge3       1.0  0.50000  0.32183  0.82183  1.0000

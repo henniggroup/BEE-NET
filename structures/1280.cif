@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       CaSi3Rh
+_chemical_formula_sum              "Ca1 Si3 Rh1"
+_cell_length_a       5.77618
+_cell_length_b       5.77618
+_cell_length_c       5.77618
+_cell_angle_alpha    60.4469
+_cell_angle_beta     41.702
+_cell_angle_gamma    41.702
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ca  Ca1       1.0  0.00000  0.58327  0.58327  1.0000
+  Si  Si1       1.0  0.50000  0.34503  0.84503  1.0000
+  Si  Si2       1.0  0.50000  0.84503  0.34503  1.0000
+  Si  Si3       1.0  1.00000  0.99621  0.99621  1.0000
+  Rh  Rh1       1.0  0.00000  0.23169  0.23169  1.0000

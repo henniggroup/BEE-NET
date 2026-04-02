@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       ZrAl5Co2
+_chemical_formula_sum              "Zr1 Al5 Co2"
+_cell_length_a       7.79409
+_cell_length_b       7.79409
+_cell_length_c       7.79409
+_cell_angle_alpha    42.0085
+_cell_angle_beta     29.3639
+_cell_angle_gamma    29.3639
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Zr  Zr1       1.0  0.00000  0.00000  0.00000  1.0000
+  Al  Al1       1.0  0.00000  0.50000  0.50000  1.0000
+  Al  Al2       1.0  0.50000  0.15017  0.65017  1.0000
+  Al  Al3       1.0  0.50000  0.65017  0.15017  1.0000
+  Al  Al4       1.0  0.50000  0.84983  0.34983  1.0000
+  Al  Al5       1.0  0.50000  0.34983  0.84983  1.0000
+  Co  Co1       1.0  0.00000  0.24076  0.24076  1.0000
+  Co  Co2       1.0  0.00000  0.75924  0.75924  1.0000

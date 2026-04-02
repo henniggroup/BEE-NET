@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       Hf2TlN
+_chemical_formula_sum              "Hf2 Tl1 N1"
+_cell_length_a       7.58212
+_cell_length_b       7.58212
+_cell_length_c       7.58212
+_cell_angle_alpha    24.6325
+_cell_angle_beta     24.6324
+_cell_angle_gamma    24.6325
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Hf  Hf1       1.0  0.94435  0.94435  0.94435  1.0000
+  Hf  Hf2       1.0  0.72249  0.72249  0.72249  1.0000
+  Tl  Tl1       1.0  0.50034  0.50034  0.50034  1.0000
+  N   N1        1.0  0.33279  0.33279  0.33279  1.0000

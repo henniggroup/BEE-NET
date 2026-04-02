@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       GaTc2H
+_chemical_formula_sum              "Ga1 Tc2 H1"
+_cell_length_a       6.5459
+_cell_length_b       6.5459
+_cell_length_c       6.5459
+_cell_angle_alpha    25.1104
+_cell_angle_beta     25.1104
+_cell_angle_gamma    25.1104
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ga  Ga1       1.0  0.50054  0.50054  0.50054  1.0000
+  Tc  Tc1       1.0  0.94359  0.94358  0.94359  1.0000
+  Tc  Tc2       1.0  0.72351  0.72350  0.72351  1.0000
+  H   H1        1.0  0.33238  0.33238  0.33238  1.0000

@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Ca2Si2H2
+_chemical_formula_sum              "Ca2 Si2 H2"
+_cell_length_a       8.11771
+_cell_length_b       8.11771
+_cell_length_c       8.11771
+_cell_angle_alpha    27.5343
+_cell_angle_beta     27.5343
+_cell_angle_gamma    27.5343
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ca  Ca1       1.0  0.39810  0.39810  0.39810  1.0000
+  Ca  Ca2       1.0  0.60190  0.60190  0.60190  1.0000
+  Si  Si1       1.0  0.14994  0.14994  0.14994  1.0000
+  Si  Si2       1.0  0.85006  0.85006  0.85006  1.0000
+  H   H1        1.0  0.69992  0.69992  0.69992  1.0000
+  H   H2        1.0  0.30008  0.30008  0.30008  1.0000

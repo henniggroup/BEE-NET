@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       Ti2V2W3
+_chemical_formula_sum              "Ti2 V2 W3"
+_cell_length_a       6.73915
+_cell_length_b       6.73915
+_cell_length_c       6.73915
+_cell_angle_alpha    38.0653
+_cell_angle_beta     38.0653
+_cell_angle_gamma    38.0653
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ti  Ti1       1.0  0.42486  0.42486  0.42486  1.0000
+  Ti  Ti2       1.0  0.57514  0.57515  0.57514  1.0000
+  V   V1        1.0  0.28684  0.28684  0.28684  1.0000
+  V   V2        1.0  0.71316  0.71316  0.71316  1.0000
+  W   W1        1.0  0.00000  0.00000  0.00000  1.0000
+  W   W2        1.0  0.14482  0.14482  0.14482  1.0000
+  W   W3        1.0  0.85518  0.85518  0.85518  1.0000

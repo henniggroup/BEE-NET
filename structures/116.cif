@@ -1,0 +1,31 @@
+data_image0
+_chemical_formula_structural       Tc4N2
+_chemical_formula_sum              "Tc4 N2"
+_cell_length_a       2.80718
+_cell_length_b       2.80718
+_cell_length_c       9.65016
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    120
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Tc  Tc1       1.0  0.33333  0.66667  0.39164  1.0000
+  Tc  Tc2       1.0  0.66667  0.33333  0.60836  1.0000
+  Tc  Tc3       1.0  0.66667  0.33333  0.89164  1.0000
+  Tc  Tc4       1.0  0.33333  0.66667  0.10836  1.0000
+  N   N1        1.0  0.33333  0.66667  0.75000  1.0000
+  N   N2        1.0  0.66667  0.33333  0.25000  1.0000

@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       HfFe2Si2
+_chemical_formula_sum              "Hf1 Fe2 Si2"
+_cell_length_a       5.32069
+_cell_length_b       5.32069
+_cell_length_c       5.32069
+_cell_angle_alpha    60.5508
+_cell_angle_beta     41.7699
+_cell_angle_gamma    41.7699
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Hf  Hf1       1.0  0.00000  0.00000  0.00000  1.0000
+  Fe  Fe1       1.0  0.50000  0.75000  0.25000  1.0000
+  Fe  Fe2       1.0  0.50000  0.25000  0.75000  1.0000
+  Si  Si1       1.0  0.00000  0.37242  0.37242  1.0000
+  Si  Si2       1.0  0.00000  0.62758  0.62758  1.0000

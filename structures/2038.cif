@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       Li5Al2
+_chemical_formula_sum              "Li5 Al2"
+_cell_length_a       6.94262
+_cell_length_b       6.94262
+_cell_length_c       6.94262
+_cell_angle_alpha    38.1821
+_cell_angle_beta     38.1821
+_cell_angle_gamma    38.1821
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.50000  0.50000  0.50000  1.0000
+  Li  Li2       1.0  0.64820  0.64820  0.64820  1.0000
+  Li  Li3       1.0  0.35180  0.35180  0.35180  1.0000
+  Li  Li4       1.0  0.78905  0.78905  0.78905  1.0000
+  Li  Li5       1.0  0.21095  0.21095  0.21095  1.0000
+  Al  Al1       1.0  0.93227  0.93227  0.93227  1.0000
+  Al  Al2       1.0  0.06773  0.06773  0.06773  1.0000

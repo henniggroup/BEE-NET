@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       Nb4Mo3
+_chemical_formula_sum              "Nb4 Mo3"
+_cell_length_a       7.02535
+_cell_length_b       7.02535
+_cell_length_c       7.02535
+_cell_angle_alpha    37.4955
+_cell_angle_beta     37.4955
+_cell_angle_gamma    37.4955
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Nb  Nb1       1.0  0.93004  0.93005  0.93004  1.0000
+  Nb  Nb2       1.0  0.06995  0.06996  0.06995  1.0000
+  Nb  Nb3       1.0  0.78543  0.78543  0.78543  1.0000
+  Nb  Nb4       1.0  0.21457  0.21457  0.21457  1.0000
+  Mo  Mo1       1.0  0.64242  0.64242  0.64242  1.0000
+  Mo  Mo2       1.0  0.50000  0.50000  0.50000  1.0000
+  Mo  Mo3       1.0  0.35758  0.35758  0.35758  1.0000

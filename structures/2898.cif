@@ -1,0 +1,28 @@
+data_image0
+_chemical_formula_structural       AlTc2
+_chemical_formula_sum              "Al1 Tc2"
+_cell_length_a       5.16165
+_cell_length_b       5.16165
+_cell_length_c       5.16165
+_cell_angle_alpha    47.8808
+_cell_angle_beta     33.349
+_cell_angle_gamma    33.349
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.00000  0.00000  0.00000  1.0000
+  Tc  Tc1       1.0  1.00000  0.32982  0.32982  1.0000
+  Tc  Tc2       1.0  0.00000  0.67018  0.67018  1.0000

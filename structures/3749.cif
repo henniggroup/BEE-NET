@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       Sc2AsSe
+_chemical_formula_sum              "Sc2 As1 Se1"
+_cell_length_a       6.64658
+_cell_length_b       6.64657
+_cell_length_c       6.64658
+_cell_angle_alpha    33.3708
+_cell_angle_beta     33.3707
+_cell_angle_gamma    33.3708
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Sc  Sc1       1.0  0.75400  0.75401  0.75400  1.0000
+  Sc  Sc2       1.0  0.24599  0.24599  0.24599  1.0000
+  As  As1       1.0  0.50000  0.50000  0.50000  1.0000
+  Se  Se1       1.0  0.00000  0.00000  0.00000  1.0000

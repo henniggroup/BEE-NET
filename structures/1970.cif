@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       YNb2Os2
+_chemical_formula_sum              "Y1 Nb2 Os2"
+_cell_length_a       6.09932
+_cell_length_b       6.09932
+_cell_length_c       6.09932
+_cell_angle_alpha    60.6134
+_cell_angle_beta     41.8108
+_cell_angle_gamma    41.8108
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Y   Y1        1.0  0.00000  0.00000  0.00000  1.0000
+  Nb  Nb1       1.0  0.50000  0.75000  0.25000  1.0000
+  Nb  Nb2       1.0  0.50000  0.25000  0.75000  1.0000
+  Os  Os1       1.0  0.00000  0.61863  0.61863  1.0000
+  Os  Os2       1.0  0.00000  0.38137  0.38137  1.0000

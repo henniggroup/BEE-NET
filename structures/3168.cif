@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       SrSi2Ni
+_chemical_formula_sum              "Sr1 Si2 Ni1"
+_cell_length_a       6.08855
+_cell_length_b       6.08854
+_cell_length_c       6.08855
+_cell_angle_alpha    37.2075
+_cell_angle_beta     37.2076
+_cell_angle_gamma    37.2075
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Sr  Sr1       1.0  0.50000  0.50000  0.50000  1.0000
+  Si  Si1       1.0  0.29468  0.29468  0.29468  1.0000
+  Si  Si2       1.0  0.70532  0.70532  0.70532  1.0000
+  Ni  Ni1       1.0  0.00000  0.00000  0.00000  1.0000

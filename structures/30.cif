@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       LiMoN2
+_chemical_formula_sum              "Li1 Mo1 N2"
+_cell_length_a       5.53345
+_cell_length_b       5.53345
+_cell_length_c       5.53345
+_cell_angle_alpha    30.1635
+_cell_angle_beta     30.1635
+_cell_angle_gamma    30.1635
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.41375  0.41375  0.41375  1.0000
+  Mo  Mo1       1.0  0.58596  0.58596  0.58596  1.0000
+  N   N1        1.0  0.84268  0.84269  0.84268  1.0000
+  N   N2        1.0  0.99630  0.99631  0.99630  1.0000

@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       TaAl5Co2
+_chemical_formula_sum              "Ta1 Al5 Co2"
+_cell_length_a       7.63663
+_cell_length_b       7.63663
+_cell_length_c       7.63663
+_cell_angle_alpha    42.171
+_cell_angle_beta     29.4748
+_cell_angle_gamma    29.4748
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ta  Ta1       1.0  0.00000  0.00000  0.00000  1.0000
+  Al  Al1       1.0  0.00000  0.50000  0.50000  1.0000
+  Al  Al2       1.0  0.50000  0.14704  0.64704  1.0000
+  Al  Al3       1.0  0.50000  0.64704  0.14704  1.0000
+  Al  Al4       1.0  0.50000  0.85296  0.35296  1.0000
+  Al  Al5       1.0  0.50000  0.35296  0.85296  1.0000
+  Co  Co1       1.0  0.00000  0.24370  0.24370  1.0000
+  Co  Co2       1.0  0.00000  0.75630  0.75630  1.0000

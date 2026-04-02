@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       ScAl4V2
+_chemical_formula_sum              "Sc1 Al4 V2"
+_cell_length_a       5.2918
+_cell_length_b       5.2918
+_cell_length_c       5.2918
+_cell_angle_alpha    122.404
+_cell_angle_beta     76.5816
+_cell_angle_gamma    76.5816
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Sc  Sc1       1.0  0.00000  0.00000  0.00000  1.0000
+  Al  Al1       1.0  0.60244  0.69878  0.69878  1.0000
+  Al  Al2       1.0  0.39756  0.30122  0.30122  1.0000
+  Al  Al3       1.0  0.00000  0.69878  0.30122  1.0000
+  Al  Al4       1.0  0.00000  0.30122  0.69878  1.0000
+  V   V1        1.0  0.50000  0.25000  0.75000  1.0000
+  V   V2        1.0  0.50000  0.75000  0.25000  1.0000

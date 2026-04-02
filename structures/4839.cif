@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       Sc2TeAs
+_chemical_formula_sum              "Sc2 Te1 As1"
+_cell_length_a       7.15349
+_cell_length_b       7.15349
+_cell_length_c       7.15349
+_cell_angle_alpha    31.4879
+_cell_angle_beta     31.4879
+_cell_angle_gamma    31.4879
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Sc  Sc1       1.0  0.92893  0.92893  0.92893  1.0000
+  Sc  Sc2       1.0  0.73866  0.73866  0.73866  1.0000
+  Te  Te1       1.0  0.50118  0.50117  0.50118  1.0000
+  As  As1       1.0  0.33123  0.33123  0.33123  1.0000

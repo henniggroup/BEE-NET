@@ -1,0 +1,32 @@
+data_image0
+_chemical_formula_structural       Li5Si2
+_chemical_formula_sum              "Li5 Si2"
+_cell_length_a       6.44466
+_cell_length_b       6.44466
+_cell_length_c       6.44466
+_cell_angle_alpha    39.4463
+_cell_angle_beta     39.4463
+_cell_angle_gamma    39.4463
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Li  Li1       1.0  0.50000  0.50000  0.50000  1.0000
+  Li  Li2       1.0  0.64722  0.64722  0.64722  1.0000
+  Li  Li3       1.0  0.35278  0.35278  0.35278  1.0000
+  Li  Li4       1.0  0.78948  0.78949  0.78948  1.0000
+  Li  Li5       1.0  0.21051  0.21052  0.21051  1.0000
+  Si  Si1       1.0  0.93286  0.93286  0.93286  1.0000
+  Si  Si2       1.0  0.06714  0.06714  0.06714  1.0000

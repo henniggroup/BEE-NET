@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       BaSi2Ni
+_chemical_formula_sum              "Ba1 Si2 Ni1"
+_cell_length_a       6.44655
+_cell_length_b       6.44655
+_cell_length_c       6.44655
+_cell_angle_alpha    35.5713
+_cell_angle_beta     35.5713
+_cell_angle_gamma    35.5713
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Ba  Ba1       1.0  0.49738  0.49739  0.49738  1.0000
+  Si  Si1       1.0  0.03298  0.03298  0.03298  1.0000
+  Si  Si2       1.0  0.29975  0.29975  0.29975  1.0000
+  Ni  Ni1       1.0  0.67426  0.67426  0.67426  1.0000

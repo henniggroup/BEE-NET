@@ -1,0 +1,28 @@
+data_image0
+_chemical_formula_structural       VCrW
+_chemical_formula_sum              "V1 Cr1 W1"
+_cell_length_a       4.94561
+_cell_length_b       4.94561
+_cell_length_c       4.94561
+_cell_angle_alpha    50.4019
+_cell_angle_beta     35.0452
+_cell_angle_gamma    35.0452
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  V   V1        1.0  0.00000  0.62274  0.62274  1.0000
+  Cr  Cr1       1.0  0.00000  0.28077  0.28077  1.0000
+  W   W1        1.0  0.00000  0.94648  0.94648  1.0000

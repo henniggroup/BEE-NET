@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       Sc2PbS
+_chemical_formula_sum              "Sc2 Pb1 S1"
+_cell_length_a       7.89515
+_cell_length_b       7.89515
+_cell_length_c       7.89515
+_cell_angle_alpha    25.8907
+_cell_angle_beta     25.8906
+_cell_angle_gamma    25.8907
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Sc  Sc1       1.0  0.93679  0.93679  0.93679  1.0000
+  Sc  Sc2       1.0  0.72977  0.72977  0.72977  1.0000
+  Pb  Pb1       1.0  0.50072  0.50072  0.50072  1.0000
+  S   S1        1.0  0.33274  0.33274  0.33274  1.0000

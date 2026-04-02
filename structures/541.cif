@@ -1,0 +1,29 @@
+data_image0
+_chemical_formula_structural       Re2TcH
+_chemical_formula_sum              "Re2 Tc1 H1"
+_cell_length_a       6.86001
+_cell_length_b       6.86001
+_cell_length_c       6.86001
+_cell_angle_alpha    23.4751
+_cell_angle_beta     23.4751
+_cell_angle_gamma    23.4751
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Re  Re1       1.0  0.94103  0.94103  0.94103  1.0000
+  Re  Re2       1.0  0.72542  0.72542  0.72542  1.0000
+  Tc  Tc1       1.0  0.50119  0.50119  0.50119  1.0000
+  H   H1        1.0  0.33236  0.33236  0.33236  1.0000

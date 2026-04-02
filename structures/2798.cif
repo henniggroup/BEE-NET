@@ -1,0 +1,28 @@
+data_image0
+_chemical_formula_structural       HfTiRh
+_chemical_formula_sum              "Hf1 Ti1 Rh1"
+_cell_length_a       5.49905
+_cell_length_b       5.49905
+_cell_length_c       5.49905
+_cell_angle_alpha    47.6308
+_cell_angle_beta     33.1803
+_cell_angle_gamma    33.1803
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Hf  Hf1       1.0  1.00000  0.81797  0.81797  1.0000
+  Ti  Ti1       1.0  0.00000  0.13484  0.13484  1.0000
+  Rh  Rh1       1.0  0.00000  0.48453  0.48453  1.0000

@@ -1,0 +1,33 @@
+data_image0
+_chemical_formula_structural       B4Mo4
+_chemical_formula_sum              "B4 Mo4"
+_cell_length_a       8.74848
+_cell_length_b       8.74848
+_cell_length_c       8.74848
+_cell_angle_alpha    29.0282
+_cell_angle_beta     20.415
+_cell_angle_gamma    20.415
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  B   B1        1.0  0.50000  0.90565  0.40565  1.0000
+  B   B2        1.0  0.00000  0.15565  0.15565  1.0000
+  B   B3        1.0  0.00000  0.84435  0.84435  1.0000
+  B   B4        1.0  0.50000  0.59435  0.09435  1.0000
+  Mo  Mo1       1.0  0.50000  0.05345  0.55345  1.0000
+  Mo  Mo2       1.0  0.00000  0.30345  0.30345  1.0000
+  Mo  Mo3       1.0  0.00000  0.69655  0.69655  1.0000
+  Mo  Mo4       1.0  0.50000  0.44655  0.94655  1.0000

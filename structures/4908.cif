@@ -1,0 +1,30 @@
+data_image0
+_chemical_formula_structural       SrMgAl3
+_chemical_formula_sum              "Sr1 Mg1 Al3"
+_cell_length_a       6.64092
+_cell_length_b       6.64092
+_cell_length_c       6.64092
+_cell_angle_alpha    56.364
+_cell_angle_beta     39.0172
+_cell_angle_gamma    39.0172
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Sr  Sr1       1.0  0.00000  0.50000  0.50000  1.0000
+  Mg  Mg1       1.0  0.50000  0.75000  0.25000  1.0000
+  Al  Al1       1.0  1.00000  0.88966  0.88966  1.0000
+  Al  Al2       1.0  0.00000  0.11034  0.11034  1.0000
+  Al  Al3       1.0  0.50000  0.25000  0.75000  1.0000
