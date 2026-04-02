@@ -1,34 +1,103 @@
 # BEE-NET
-This repo contains the models, training data and test predictions for the work described in the paper: [Developing a complete AI-accelerated workflow for superconductor discovery](https://www.nature.com/articles/s41524-026-01964-8)
 
-## Files and directories
+**Bootstrapped Ensemble of Equivariant Graph Neural Networks** for predicting the Eliashberg spectral function α²F(ω) and superconducting critical temperature T_c.
 
-The `models/CSO/` `models/CPD/` directories contain the models trained with the EMD loss function.
+📄 **Paper:** [Developing a complete AI-accelerated workflow for superconductor discovery](https://www.nature.com/articles/s41524-026-01964-8)
+*npj Computational Materials* (2026)
 
-The `workflow/` directory contains the scripts for running the pilot workflow.
+Jason B. Gibson, Ajinkya C. Hire, Pawan Prakash, Philip M. Dee, Benjamin Geisler, Jung Soo Kim, Zhongwei Li, James J. Hamlin, Gregory R. Stewart, P. J. Hirschfeld & Richard G. Hennig
 
-- `workflow/README.md` contains the description of what each script does.
-- `workflow/util_qe.py` contains various functions for setting up the QuantumEspresso calculations
-- `workflow/relax_dask_m3g.py` is the script used to relax candidate structures, predict formation energy and bandgap
+---
 
-The `database.json` file contains the database used to train the model.
+## Overview
 
-The `structures/` directory contains the corresponding cif files.
+BEE-NET is a bootstrapped ensemble of 100 equivariant graph neural networks (e3NN) trained on ~7,000 DFT-computed Eliashberg spectral functions. Two model variants are provided:
 
-The `indices/` directory contains the training `indices/idx_train_full.txt`, and testing `indices/idx_test_full.txt` indices as well as the indices used for bootstrapping.
+- **CSO (Crystal Structure Only):** Takes only the crystal structure as input. Ideal for large-scale screening.
+- **CPD (Coarse Phonon Density of States):** Uses crystal structure + coarse phonon DOS for higher accuracy.
 
-The `notebook/` directory contains notebooks to visualize the predictions, train the models and make predictions on a dataset.
+Integrated into a multi-stage AI-accelerated discovery pipeline, BEE-NET screened over 1.3 million candidate structures, two of which (Be₂Hf₂Nb and Be₂HfNb₂) were experimentally synthesized and confirmed as superconductors.
 
-##  Prerequisites
+### Key metrics (EMD loss, test set)
 
-This package requires:
+| Variant | T_c MAE (K) | T_c R² | True Negative Rate |
+|---------|-------------|--------|-------------------|
+| CSO     | 1.20        | 0.66   | 0.97              |
+| CPD     | 0.87        | 0.79   | 0.991             |
 
+---
+
+## Repository structure
+
+```
+BEE-NET/
+├── notebooks/          # Train models, make predictions, visualize results
+├── workflow/            # Scripts for the screening workflow
+├── structures/          # 5,241 CIF files for training/testing
+├── indices/             # Train/test split indices and bootstrap indices
+├── .gitignore
+├── .gitattributes
+└── README.md
+```
+
+## Model weights & large files (Hugging Face)
+
+The trained model weights and training database are hosted on Hugging Face due to their size (~12 GB total):
+
+🤗 **[huggingface.co/paprakash/BEE-NET](https://huggingface.co/paprakash/BEE-NET)**
+
+| File/Folder | Description | Size |
+|-------------|-------------|------|
+| `CSO/`      | 100 CSO model checkpoints (EMD loss) | ~6 GB |
+| `CPD/`      | 100 CPD model checkpoints (EMD loss) | ~6 GB |
+| `database.json` | Training database (~7,000 DFT-computed α²F) | ~430 MB |
+
+To download the models:
+
+```bash
+# Install huggingface_hub if needed
+pip install huggingface_hub
+
+# Download everything
+huggingface-cli download paprakash/BEE-NET --local-dir BEE-NET-models
+
+# Or download just one variant
+huggingface-cli download paprakash/BEE-NET --include "CPD/*" --local-dir BEE-NET-models
+```
+
+---
+
+## Notebooks
+
+| Notebook | Description |
+|----------|-------------|
+| `notebooks/Train_CSO.ipynb` | Train the CSO model ensemble |
+| `notebooks/Train_CPD.ipynb` | Train the CPD model ensemble |
+| `notebooks/Pred_CSO.ipynb`  | Run predictions with the CSO ensemble and evaluate |
+| `notebooks/Pred_CPD.ipynb`  | Run predictions with the CPD ensemble and evaluate |
+| `notebooks/plot_confusion.ipynb` | Generate confusion matrices and precision-recall curves |
+
+## Workflow
+
+The `workflow/` directory contains the scripts for the high-throughput screening pipeline described in the paper. See `workflow/README.md` for details on each script, including:
+
+- Relaxation of candidate structures with M3GNet
+- Formation energy and band gap prediction with MEGNet
+- T_c prediction with BEE-NET
+- DFT electron-phonon calculations with Quantum ESPRESSO
+
+---
+
+## Prerequisites
 
 - [PyTorch](http://pytorch.org)
+- [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/)
+- [e3nn](https://e3nn.org/)
 - [scikit-learn](http://scikit-learn.org/stable/)
 - [pymatgen](http://pymatgen.org)
+- [ASE](https://wiki.fysik.dtu.dk/ase/)
 
-If you are new to Python, the easiest way of installing the prerequisites is via [conda](https://conda.io/docs/index.html). After installing [conda](http://conda.pydata.org/), run the following command to create a new [environment](https://conda.io/docs/user-guide/tasks/manage-environments.html) named `bete_net` and install all prerequisites:
+### Installation
 
 ```bash
 conda create --name bee_net python=3.9
@@ -37,3 +106,20 @@ conda install pytorch==1.10.0 torchvision==0.11.0 torchaudio==0.10.0 cudatoolkit
 pip install -r requirements.txt -f https://pytorch-geometric.com/whl/torch-1.10.0+cu113.html
 ```
 
+---
+
+## Citation
+
+If you use BEE-NET in your research, please cite:
+
+```bibtex
+@article{gibson2026beenet,
+  title={Developing a complete AI-accelerated workflow for superconductor discovery},
+  author={Gibson, Jason B. and Hire, Ajinkya C. and Prakash, Pawan and Dee, Philip M. and Geisler, Benjamin and Kim, Jung Soo and Li, Zhongwei and Hamlin, James J. and Stewart, Gregory R. and Hirschfeld, P. J. and Hennig, Richard G.},
+  journal={npj Computational Materials},
+  volume={12},
+  pages={95},
+  year={2026},
+  doi={10.1038/s41524-026-01964-8}
+}
+```
