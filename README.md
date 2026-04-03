@@ -46,11 +46,11 @@ The trained model weights and training database are hosted on Hugging Face due t
 
 🤗 **[huggingface.co/paprakash/BEE-NET](https://huggingface.co/paprakash/BEE-NET)**
 
-| File/Folder | Description | Size |
-|-------------|-------------|------|
-| `CSO/`      | 100 CSO model checkpoints (EMD loss) | ~6 GB |
-| `CPD/`      | 100 CPD model checkpoints (EMD loss) | ~6 GB |
-| `database.json` | Training database (~7,000 DFT-computed α²F) | ~430 MB |
+| File/Folder | Description |
+|-------------|-------------|
+| `CSO/`      | 100 CSO model checkpoints (EMD loss) |
+| `CPD/`      | 100 CPD model checkpoints (EMD loss) |
+| `database.json` | Training database (~7,000 DFT-computed α²F) |
 
 To download the models:
 
