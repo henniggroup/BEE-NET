@@ -1,0 +1,14 @@
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.13.1
+scikit-learn==1.6.1
+matplotlib==3.9.4
+ase==3.22.0
+pymatgen==2024.8.9
+e3nn==0.4.2
+torch-geometric==2.0.2
+torch-scatter==2.0.9
+torch-sparse==0.6.12
+torch-cluster==1.5.9
+torch-spline-conv==1.2.1
+tqdm==4.67.1
