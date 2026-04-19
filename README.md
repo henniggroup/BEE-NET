@@ -40,31 +40,6 @@ BEE-NET/
 └── README.md
 ```
 
-## Model weights & large files (Hugging Face)
-
-The trained model weights and training database are hosted on Hugging Face due to their size (~12 GB total):
-
-🤗 **[huggingface.co/paprakash/BEE-NET](https://huggingface.co/paprakash/BEE-NET)**
-
-| File/Folder | Description |
-|-------------|-------------|
-| `CSO/`      | 100 CSO model checkpoints (EMD loss) |
-| `CPD/`      | 100 CPD model checkpoints (EMD loss) |
-| `database.json` | Training database (~7,000 DFT-computed α²F) |
-
-To download the models:
-
-```bash
-# Install huggingface_hub if needed
-pip install huggingface_hub
-
-# Download everything
-huggingface-cli download paprakash/BEE-NET --local-dir BEE-NET-models
-
-# Or download just one variant
-huggingface-cli download paprakash/BEE-NET --include "CPD/*" --local-dir BEE-NET-models
-```
-
 ---
 
 ## Notebooks
