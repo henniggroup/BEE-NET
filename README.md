@@ -35,11 +35,36 @@ BEE-NET/
 ├── workflow/            # Scripts for the screening workflow
 ├── structures/          # 5,241 CIF files for training/testing
 ├── indices/             # Train/test split indices and bootstrap indices
-├── database.json        # α²F(ω), phonon DOS and DFT targets for all 5,241 entries (not tracked in git)
-├── models/              # CSO/ and CPD/ ensembles, 100 checkpoints each (not tracked in git)
+├── database.json        # α²F(ω), phonon DOS and DFT targets for all 5,241 entries (on Hugging Face, not in git)
+├── models/              # CSO/ and CPD/ ensembles, 100 checkpoints each (on Hugging Face, not in git)
 ├── .gitignore
 ├── .gitattributes
 └── README.md
+```
+
+## Model weights & large files (Hugging Face)
+
+The trained model weights and the database are hosted on Hugging Face due to their size (~12.6 GB total):
+
+🤗 **[huggingface.co/paprakash/BEE-NET](https://huggingface.co/paprakash/BEE-NET)**
+
+| File/Folder | Description |
+|-------------|-------------|
+| `CSO/`      | 100 CSO model checkpoints (EMD loss) |
+| `CPD/`      | 100 CPD model checkpoints (EMD loss) |
+| `database.json` | Full database, 5,241 DFT-computed α²F(ω) (see [Data](#data)) |
+
+To download the models:
+
+```bash
+# Install huggingface_hub if needed
+pip install huggingface_hub
+
+# Download everything
+huggingface-cli download paprakash/BEE-NET --local-dir BEE-NET-models
+
+# Or download just one variant
+huggingface-cli download paprakash/BEE-NET --include "CPD/*" --local-dir BEE-NET-models
 ```
 
 ---
@@ -61,7 +86,13 @@ Notes:
 - The test file holds Alexandria `ID`s; use `df.set_index('ID')` before selecting it (as in `Pred_*.ipynb`).
 - 200 bootstrap train/val pairs are provided; the released ensembles contain 100 models per variant.
 - Every bootstrap train/val pair is disjoint from the test set, and train ∪ val equals the 4,192-entry training pool.
-- The released ensembles reproduce the paper's test metrics on these 1,049 test entries (e.g. CPD, EMD: λ R² 0.80 / MAE 0.073; ω_log R² 0.83 / MAE 17.4 K; ω₂ R² 0.91 / MAE 14.9 K).
+- CSO and CPD share the same test set and bootstrap indices (the `_cpd_` in the filenames does not mean CPD-only).
+- The released ensembles reproduce the paper's test metrics on these 1,049 test entries (EMD loss, μ* = 0.1):
+
+| Variant | λ R² / MAE | ω_log R² / MAE (K) | ω₂ R² / MAE (K) | T_c precision / TPR / TNR (T_c > 5 K) |
+|---------|------------|--------------------|-----------------|----------------------------------------|
+| CSO     | 0.66 / 0.097 | 0.75 / 21.9 | 0.87 / 19.4 | 0.80 / 0.64 / 0.97 |
+| CPD     | 0.80 / 0.073 | 0.83 / 17.4 | 0.91 / 14.9 | 0.95 / 0.72 / 0.992 |
 
 ---
 
