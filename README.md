@@ -54,17 +54,22 @@ The trained model weights and the database are hosted on Hugging Face due to the
 | `CPD/`      | 100 CPD model checkpoints (EMD loss) |
 | `database.json` | Full database, 5,241 DFT-computed α²F(ω) (see [Data](#data)) |
 
-To download the models:
+The data (`database.json`, `structures/`, `indices/`) is also published as a dataset: 📊 **[huggingface.co/datasets/paprakash/BEE-NET_data](https://huggingface.co/datasets/paprakash/BEE-NET_data)**
+
+To download:
 
 ```bash
-# Install huggingface_hub if needed
+# Install huggingface_hub if needed (provides the `hf` command)
 pip install huggingface_hub
 
 # Download everything
-huggingface-cli download paprakash/BEE-NET --local-dir BEE-NET-models
+hf download paprakash/BEE-NET --local-dir BEE-NET-models
 
 # Or download just one variant
-huggingface-cli download paprakash/BEE-NET --include "CPD/*" --local-dir BEE-NET-models
+hf download paprakash/BEE-NET --include "CPD/*" --local-dir BEE-NET-models
+
+# Dataset only
+hf download paprakash/BEE-NET_data --repo-type dataset --local-dir BEE-NET-data
 ```
 
 ---
